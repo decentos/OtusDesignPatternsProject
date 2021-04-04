@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.concurrent.*;
 
 public class MatrixHandler {
+    private static final int POOL_SIZE = 4;
 
     public long[][] multiplication(int[][] a, int[][] b) throws ExecutionException, InterruptedException {
         int aLengthX = a.length;
@@ -14,17 +15,17 @@ public class MatrixHandler {
 
         long[][] result = new long[aLengthX][aLengthX];
         Future<Long>[][] resultCallable = new Future[aLengthX][aLengthX];
-        ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(4);
+        ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(POOL_SIZE);
 
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < b.length; j++) {
+        for (int i = 0; i < aLengthX; i++) {
+            for (int j = 0; j < bLengthX; j++) {
                 GetElementMultiplicationResult getElementMultiplicationResult = new GetElementMultiplicationResult(a, b, i, j);
                 resultCallable[i][j] = scheduledExecutorService.schedule(getElementMultiplicationResult, 1, TimeUnit.SECONDS);
             }
         }
 
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < b.length; j++) {
+        for (int i = 0; i < aLengthX; i++) {
+            for (int j = 0; j < bLengthX; j++) {
                 result[i][j] = resultCallable[i][j].get();
             }
         }
