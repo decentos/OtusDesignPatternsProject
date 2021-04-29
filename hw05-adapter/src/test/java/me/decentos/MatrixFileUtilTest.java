@@ -34,7 +34,6 @@ class MatrixFileUtilTest {
     void handleMatrix() throws InterruptedException, ExecutionException, IOException {
         MatrixFileUtil matrixFileUtil = new MatrixFileUtil();
         matrixFileUtil.handleMatrix("src/main/resources/matrix.txt", "src/main/resources/matrixResult.txt");
-        boolean equals = Arrays.equals(Files.readAllBytes(new File("src/main/resources/matrixExpected.txt").toPath()), Files.readAllBytes(new File("src/main/resources/matrixResult.txt").toPath()));
-        assertTrue(equals);
+        assertArrayEquals(Files.readAllBytes(new File("src/main/resources/matrixExpected.txt").toPath()), Files.readAllBytes(new File("src/main/resources/matrixResult.txt").toPath()));
     }
 }
