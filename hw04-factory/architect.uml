@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>otus.architect</OriginalElement>
+  <nodes>
+    <node x="297.0" y="297.0">otus.architect.Main</node>
+    <node x="0.0" y="297.0">otus.architect.Main$</node>
+    <node x="594.0" y="297.0">otus.architect.Writer$class</node>
+    <node x="978.125" y="0.0">otus.architect.Writer</node>
+    <node x="923.0" y="297.0">otus.architect.Sorting$class</node>
+    <node x="830.0" y="134.0">otus.architect.MergeSort</node>
+    <node x="415.0" y="134.0">otus.architect.InsertionSort</node>
+    <node x="365.625" y="0.0">otus.architect.Sorting</node>
+    <node x="1245.0" y="134.0">otus.architect.SelectionSort</node>
+    <node x="0.0" y="134.0">otus.architect.DefaultSort</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="otus.architect.InsertionSort" target="otus.architect.Sorting">
+      <point x="-98.75" y="-59.0" />
+      <point x="-49.375" y="27.0" />
+    </edge>
+    <edge source="otus.architect.SelectionSort" target="otus.architect.Writer">
+      <point x="98.75" y="-59.0" />
+      <point x="1541.25" y="74.0" />
+      <point x="1185.5" y="74.0" />
+      <point x="88.875" y="27.0" />
+    </edge>
+    <edge source="otus.architect.InsertionSort" target="otus.architect.Writer">
+      <point x="98.75" y="-59.0" />
+      <point x="711.25" y="114.0" />
+      <point x="1067.0" y="114.0" />
+      <point x="-29.625" y="27.0" />
+    </edge>
+    <edge source="otus.architect.MergeSort" target="otus.architect.Sorting">
+      <point x="-98.75" y="-59.0" />
+      <point x="928.75" y="94.0" />
+      <point x="612.5" y="94.0" />
+      <point x="49.375" y="27.0" />
+    </edge>
+    <edge source="otus.architect.MergeSort" target="otus.architect.Writer">
+      <point x="98.75" y="-59.0" />
+      <point x="29.625" y="27.0" />
+    </edge>
+    <edge source="otus.architect.SelectionSort" target="otus.architect.Sorting">
+      <point x="-98.75" y="-59.0" />
+      <point x="1343.75" y="84.0" />
+      <point x="711.25" y="84.0" />
+      <point x="148.125" y="27.0" />
+    </edge>
+    <edge source="otus.architect.DefaultSort" target="otus.architect.Writer">
+      <point x="98.75" y="-59.0" />
+      <point x="296.25" y="104.0" />
+      <point x="1007.75" y="104.0" />
+      <point x="-88.875" y="27.0" />
+    </edge>
+    <edge source="otus.architect.DefaultSort" target="otus.architect.Sorting">
+      <point x="-98.75" y="-59.0" />
+      <point x="98.75" y="94.0" />
+      <point x="415.0" y="94.0" />
+      <point x="-148.125" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="594.5" y="189.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Open Files</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+
