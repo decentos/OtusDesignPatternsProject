@@ -1,4 +1,4 @@
-package me.decentos;
+package main.scala.me.decentos;
 
 import java.util.Arrays;
 import java.util.concurrent.*;

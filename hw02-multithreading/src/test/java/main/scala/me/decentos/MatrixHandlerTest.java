@@ -1,4 +1,4 @@
-package me.decentos;
+package main.scala.me.decentos;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
