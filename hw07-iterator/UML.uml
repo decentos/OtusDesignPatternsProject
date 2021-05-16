@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>otus.architect</OriginalElement>
+  <nodes>
+    <node x="278.5" y="0.0">otus.architect.Iterator</node>
+    <node x="375.0" y="170.0">otus.architect.FibonacciBackwardIterator</node>
+    <node x="278.0" y="377.0">otus.architect.FibonacciAggregator</node>
+    <node x="266.0" y="622.0">otus.architect.Fibonacci$</node>
+    <node x="289.0" y="849.0">otus.architect.Iterator$class</node>
+    <node x="502.0" y="622.0">otus.architect.Main</node>
+    <node x="0.0" y="622.0">otus.architect.Main$</node>
+    <node x="409.0" y="481.0">otus.architect.FibonacciForwardAggregator</node>
+    <node x="0.0" y="481.0">otus.architect.FibonacciBackwardAggregator</node>
+    <node x="785.0" y="0.0">otus.architect.Fibonacci</node>
+    <node x="0.0" y="170.0">otus.architect.FibonacciForwardIterator</node>
+    <node x="0.0" y="849.0">otus.architect.FibonacciAggregator$class</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="otus.architect.FibonacciBackwardAggregator" target="otus.architect.FibonacciAggregator">
+      <point x="0.0" y="-48.0" />
+      <point x="194.5" y="456.0" />
+      <point x="337.25" y="456.0" />
+      <point x="-59.25" y="27.0" />
+    </edge>
+    <edge source="otus.architect.FibonacciBackwardIterator" target="otus.architect.Iterator">
+      <point x="0.0" y="-81.0" />
+      <point x="557.5" y="145.0" />
+      <point x="412.0" y="145.0" />
+      <point x="44.5" y="60.0" />
+    </edge>
+    <edge source="otus.architect.FibonacciForwardAggregator" target="otus.architect.FibonacciAggregator">
+      <point x="0.0" y="-48.0" />
+      <point x="598.5" y="456.0" />
+      <point x="455.75" y="456.0" />
+      <point x="59.25" y="27.0" />
+    </edge>
+    <edge source="otus.architect.FibonacciForwardIterator" target="otus.architect.Iterator">
+      <point x="0.0" y="-81.0" />
+      <point x="177.5" y="145.0" />
+      <point x="323.0" y="145.0" />
+      <point x="-44.5" y="60.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8447339847991314" x="490.5" y="450.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
