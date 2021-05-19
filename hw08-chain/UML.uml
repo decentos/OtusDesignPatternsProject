@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>otus.architect</OriginalElement>
+  <nodes>
+    <node x="474.0" y="495.0">otus.architect.Main</node>
+    <node x="0.0" y="0.0">otus.architect.HandlerType</node>
+    <node x="628.0" y="0.0">otus.architect.Main$</node>
+    <node x="294.0" y="929.0">otus.architect.Logger</node>
+    <node x="334.0" y="0.0">otus.architect.Handler</node>
+    <node x="0.0" y="766.0">otus.architect.XMLHandler</node>
+    <node x="0.0" y="495.0">otus.architect.HandlerType$</node>
+    <node x="294.0" y="766.0">otus.architect.TXTHandler</node>
+    <node x="588.0" y="766.0">otus.architect.CSVHandler</node>
+    <node x="254.0" y="495.0">otus.architect.Logger$</node>
+    <node x="0.0" y="929.0">otus.architect.JSONHandler</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.7291471415182755" x="468.0" y="523.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

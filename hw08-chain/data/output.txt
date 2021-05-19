@@ -1,0 +1,28 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<content>
+    <filename>XML1</filename>
+    <filetype>XML</filetype>
+</content>
+CSV,file,1
+CSV1,line,2
+{
+  "fileName": "JSON1",
+  "fileType": "JSON"
+}
+This TXT file 1
+TXT1 Line 2
+<?xml version="1.1" encoding="UTF-8" ?>
+<content>
+    <filename>XML2</filename>
+    <filetype>XML</filetype>
+</content>
+CSV,file,2
+CSV2,line,2
+CSV2,line,3
+{
+  "fileName": "JSON2",
+  "fileType": "JSON"
+}
+This TXT file 2
+TXT2 Line 2
+TXT2 Line 3

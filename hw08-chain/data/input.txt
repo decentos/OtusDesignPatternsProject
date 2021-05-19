@@ -1,0 +1,8 @@
+data/xmlfile1.xml
+data/csvfile1.csv
+data/jsonfile1.json
+data/txtfile1.txt
+data/xmlfile2.xml
+data/csvfile2.csv
+data/jsonfile2.json
+data/txtfile2.txt
